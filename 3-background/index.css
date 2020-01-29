@@ -1,0 +1,32 @@
+
+body{
+  margin:50px;
+  background-image: url("gopher.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: auto;/* cover, contain, px px, % %*/
+}
+.fondo-color1{
+  background-color: blue;
+}
+.fondo-color2{
+  background-color: red;
+}
+.gradient-img1{
+  height: 200px;
+  background: linear-gradient(red,yellow);
+}
+.gradient-img2{
+  height: 200px;
+  background: linear-gradient(to right,green,yellow, red);
+}
+.gradient-img3{
+  height: 800px;
+  background: linear-gradient(-45deg ,purple, red);
+}
+.gradient-img4{
+  height: 800px;
+  background: radial-gradient(circle, darkred 10%, darkblue 15%, skyblue);
+}

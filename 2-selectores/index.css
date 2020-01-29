@@ -1,0 +1,38 @@
+h1,p{
+    color:green;
+    text-align: center;
+}
+.ejemplo {
+    background-color: blue;
+    height: 20px
+}
+span p{
+    color: red
+}
+span h2{
+    color: yellow;
+    font-size: 30px
+}
+h2.ejemplo{
+    color:white;
+    height: 40px
+}
+/*
+  Los estilos escritos desde los padres tienen mayor importancia que los estilos directos
+*/
+#colores{
+  background-color: darkblue;
+  color:red;
+}
+#orange{
+  color:orange
+}
+#red{
+  color:red;
+}
+#green{
+  color:green
+}
+#black{
+  color:black
+}
